@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+#10.times do |index|
+#  dogsitter = Dogsitter.create!(name: "Nom#{index}")
+#end
+
+#10.times do |index|
+#  city = City.create!(city_name: "montpellier#{index}")
+#end
+
+#10.times do |index|
+#  dog = Dog.create!(name: "berger allemand#{index}", city_id: "#{index}")
+#end
